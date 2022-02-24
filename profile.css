@@ -1,0 +1,153 @@
+body{
+    background-image: url("img/bg2.jpg") ;
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
+
+header{
+    display: flex;
+    margin: 25px;
+    /* border: 2px dotted wheat; */
+   
+}
+
+/* this is done */
+header> img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+h3{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+}
+
+#intro{
+    width: 40%;
+    text-align: center;
+    padding: 5px 5px;
+    margin-left: 120px;
+}
+
+#logo{
+    width: 16px;
+    height: 17px;
+    border-radius: 7px;
+    padding: 0px 2px;
+    margin: 0px 2px;
+}
+
+#intro p{
+    text-align: left;
+}
+
+span:hover{
+    font-size: large;
+    text-decoration: underline;
+    cursor: pointer ;
+}
+
+#skills{
+    width: 65%;
+    height: 300px;
+    /* display: flex;
+    justify-content:end; */
+    /* text-align: left; */
+    margin: 40px 10px;
+    margin-left: 500px;
+}
+
+#skill_h4{
+    font-size: large;
+    text-align: right;
+    margin-right: 417px;
+    font-size: 30px;
+    margin-top: 108px;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.skill_class{
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    margin: 20px 20px;
+    border-radius: 20%;
+}
+
+#hobby{
+    width: 55%;
+    /* display: flex; */
+    /* justify-content:start; */
+    height: 300px;
+    /* text-align: left; */
+    margin: 40px 10px;
+    margin-right: 500px;
+    /* background: white; */
+    
+}
+
+#hobyy_h4{
+    font-size: large;
+    text-align: left;
+    margin-left: 354px;
+    font-size: 30px;
+    margin-top: 108px;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.hobby_class{
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    margin: 20px 20px;
+    border-radius: 20%;
+    border: 2px solid black;
+    background: white;
+}
+
+
+#contact_h4{
+    font-size: large;
+    text-align: right;
+    margin-right: 254px;
+    font-size: 30px;
+    margin-top: 40px;
+    /* margin-bottom: ; */
+    font-family: 'Luxurious Roman', cursive;
+}
+
+iframe{
+    height: 300px;
+    width: 600px;
+    /* display: flex;
+    justify-content:end; */
+    /* text-align: left; */
+    margin: 15px 10px;
+    margin-left: 850px;
+}
+
+footer{
+    width: 550px;
+    height: 100px;
+    /* text-align: left; */
+    margin: 30px 5px;
+    margin-left: 973px;
+}
+
+.footer_Class{
+    width: 30px;
+    height: 30px;
+    align-content: space-between;
+    padding: 0px 30px;
+}
+
+.footer_Class:hover{
+    width: 30px;
+    height: 30px;
+    align-content: space-between;
+    padding: 0px 30px;
+}
